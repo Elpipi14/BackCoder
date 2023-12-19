@@ -1,0 +1,28 @@
+<h1 class="title">Products Ecommerce</h1>
+<div>
+        {{#if session.welcomeMessage}}
+        <h1>{{session.welcomeMessage}}</h1>
+        {{/if}}
+</div>
+<div id="home">
+    {{#each products}}
+    <div class="card vist" style="width: 18rem;">
+        <img src="{{imageUrl}}" class="mx-auto img-thumbnail img" alt="{{title}}">
+        <div class="card_info card-body">
+            <p class="card-text">{{title}}</p>
+            <p class="card-text">Price: {{price}}</p>
+            <p class="card-text">Stocks: {{stock}}</p>
+            <p class="card-text">Category: {{category}}</p>
+        </div>
+        <div>
+            <button class="btn cart px-auto add-to-cart-btn" data-product-id="{{_id}}">Add Product</button>
+        </div>  
+    </div>
+    {{/each}}
+</div>
+
+
+   
+
+ 
+

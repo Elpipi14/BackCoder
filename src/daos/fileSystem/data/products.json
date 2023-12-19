@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Nike I",
+    "price": 1500,
+    "stock": 10,
+    "category": "2021",
+    "imageUrl": "url img 1",
+    "status": true
+  },
+  {
+    "id": 2,
+    "title": "Nike II",
+    "price": 1000,
+    "stock": 10,
+    "category": "2021",
+    "imageUrl": "url img 2",
+    "status": true
+  },
+  {
+    "id": 3,
+    "title": "Nike slow Change",
+    "price": 6500,
+    "stock": 10,
+    "category": "Prueba",
+    "imageUrl": "url img 34",
+    "status": true
+  },
+  {
+    "id": 4,
+    "title": "Nike Dunk",
+    "price": 1800,
+    "stock": 10,
+    "category": "2022",
+    "imageUrl": "url img 4",
+    "status": true
+  },
+  {
+    "id": 5,
+    "title": "Nike Dunk I",
+    "price": 800,
+    "stock": 10,
+    "category": "2022",
+    "imageUrl": "url img 5",
+    "status": true
+  },
+  {
+    "id": 6,
+    "title": "Nike Dunk II",
+    "price": 700,
+    "stock": 10,
+    "category": "2022",
+    "imageUrl": "url img 6",
+    "status": true
+  },
+  {
+    "id": 7,
+    "title": "Nike Slam",
+    "price": 550,
+    "stock": 10,
+    "category": "2023",
+    "imageUrl": "url img 7",
+    "status": true
+  },
+  {
+    "id": 8,
+    "title": "Nike Slam I",
+    "price": 550,
+    "stock": 10,
+    "category": "2023",
+    "imageUrl": "url img 7",
+    "status": true,
+    "code": 45255
+  },
+  {
+    "id": 9,
+    "title": "Nike Slam",
+    "price": 550,
+    "description": "Nuevo lanzamiento",
+    "imageUrl": "url img 7",
+    "status": true,
+    "code": 45255,
+    "stock": 10,
+    "category": "2023"
+  }
+]
